@@ -36,24 +36,20 @@ Copy code
 
 ## ⚙️ Installation and Setup
 
-1. **Clone the repository**
-
-   ```bash
-   git clone <YOUR_PROJECT_REPO_URL>
-   cd task-tracker
-Initialize the project
-
+### 1. Clone the repository
+```bash
+git clone <YOUR_PROJECT_REPO_URL>
+cd task-tracker
+2. Initialize the project
 bash
 Copy code
 npm init -y
-Create the required files
-
+3. Create the required files
 bash
 Copy code
 touch task-cli.js
 echo "[]" > tasks.json
-Make the script executable
-
+4. Make the script executable
 Add this line to your package.json under "bin":
 
 json
@@ -116,9 +112,10 @@ This file is automatically created if it does not exist.
 
 No external databases are used.
 
-🌐 Project page URL
-Project page URL: https://roadmap.sh/projects/task-tracker
+🌐 Project Page URL
+Project Page: https://roadmap.sh/projects/task-tracker
 
+(Replace this link with your GitHub repository if you’re uploading the project there.)
 
 🏁 Conclusion
 This Task Tracker CLI helps you:
@@ -130,3 +127,4 @@ Learn how CLI apps parse commands and arguments
 Build real-world utilities without any frameworks
 
 💡 You can later enhance this project with colors, command aliases, or even convert it into a GUI/web app.
+
